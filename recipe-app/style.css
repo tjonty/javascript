@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ada996;
+  background: -webkit-linear-gradient(
+    to right,
+    #eaeaea,
+    #dbdbdb,
+    #f2f2f2,
+    #ada996
+  );
+  background: linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  min-height: 100vh;
+}
+
+img {
+  width: 100px;
+}
+
+.mobile-container {
+  background-color: #fff;
+  box-shadow: 0px 0px 5px #3333331a;
+  border-radius: 3px;
+  overflow: hidden;
+  width: 400px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+header input {
+  background-color: #eee;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+}
+
+header button {
+  background-color: transparent;
+  border: none;
+  color: #eee;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.fav-container {
+    background-color: rgb(238, 206, 238);
+  padding: 1rem;
+  text-align: center;
+}
+
+.fav-meals {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.fav-meals li {
+    width: 85px;
+}
+
+.fav-meals li img {
+    border: 2px solid white;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 70px;
+  height: 70px;
+}
+
+.fav-meals li span {
+    font-size: 0.8rem;
+}
